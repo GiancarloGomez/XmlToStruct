@@ -73,6 +73,7 @@ component {
 				// process node
 				else {
 					astr[n] = processXMLChild(aXml.XmlChildren[i],n);
+					astr.append({'__attributes' : axml.XmlAttributes});
 				}
 
 			}
